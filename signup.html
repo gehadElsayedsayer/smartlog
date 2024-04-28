@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: #24353f;" >
+ 
+    <div class="container  ">
+
+      <div class="w-75 m-auto text-center form-container login">
+        <h2 class="text-info mb-4">Smart Login System</h2>
+        <div class="mb-3">
+       <input id="usernameInp" type="text" class="form-control bg-transparent text-white" placeholder="Enter Your Name">
+       <p id="usernamealret" class="d-none text-danger">include at least 3 letters capital </p>
+     </div>
+    
+     <div class="mb-3">
+      <input id="useremailInp" type="email" class="form-control bg-transparent text-white" placeholder="Enter Your Email">
+      <p id="useremailalret" class="d-none text-danger">name@example.com </p>
+    </div>
+     <div class="mb-3">
+       <input  id="userpassInp" type="password" class="form-control bg-transparent text-white" placeholder="Enter Password">
+       <p id="userpassalret" class="d-none text-danger m-0">you must strenth your password start from 5 to 15 </p>
+      </div>
+      <p class="text-success d-none" id="confirmMsg">success</p>
+      <p class="text-danger d-none mb-0" id="accountExistMsg">this account is exist ! try another one.</p>
+      <p class="text-danger d-none mb-0" id="tryAgainMsg">signUp filled i try again.</p>
+      <a class="btn btn-outline-info w-100 mb-3 text-docration-none" id="signBtn" onclick="signUp()">Sign Up</a>
+      <p class="text-white d-block">you have an account?   <a href="index.html" class="text-white text-docration-none" >Sign In</a></p>
+      <a href="index.html" class="d-none btn btn-outline-success text white w-25 m-auto" id="signin">Sign In</a>
+     </div>
+ 
+   </div>
+ 
+
+ 
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

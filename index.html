@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: #24353f;">
+ 
+    <div class="container  py-5 ">
+
+     <div class="w-75 m-auto text-center form-container login">
+       <h2 class="text-info mb-4">Smart Login System</h2>
+       <div class="mb-3">
+      <input id="loginEmail" type="text" class="form-control bg-transparent text-white" placeholder="Enter Your Email">
+    </div>
+   
+    <div class="mb-3">
+      <input  id="loginPass" type="password" class="form-control bg-transparent text-white" placeholder="Enter Password">
+     </div>
+     <p class="text-danger d-none" id="fillMsg">fill the inputs first</p>
+     <p class="text-danger d-none" id="wrongMsg">your email or password is not correct</p>
+     <a class="btn btn-outline-info w-100 mb-3 text-docration-none" id="loginBtn" onclick="login()">Login</a>
+     <p class="text-white">don't have an account?   <a href="signup.html" class="text-white text-docration-none" >Sign Up</a></p>
+    </div>
+
+  </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
